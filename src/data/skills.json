@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Photoshop", 
+        "icon": "./img/photoshop.svg"
+    },
+    {
+        "title": "Illustrator", 
+        "icon": "./img/illustrator.svg"
+    },
+    {
+        "title": "InDesign", 
+        "icon": "./img/indesign.svg"
+    },
+    {
+        "title": "Premiere", 
+        "icon": "./img/premiere.svg"
+    },
+    {
+        "title": "After Effects", 
+        "icon": "./img/afterfx.svg"
+    },
+    {
+        "title": "Final Cut", 
+        "icon": "./img/finalcut.svg"
+    },
+    {
+        "title": "Davinci Resolve", 
+        "icon": "./img/davinci.svg"
+    },
+    {
+        "title": "Figma", 
+        "icon": "./img/figma.svg"
+    },
+    {
+        "title": "HTML", 
+        "icon": "./img/html.svg"
+    },
+    {
+        "title": "CSS", 
+        "icon": "./img/css.svg"
+    },
+    {
+        "title": "Javascript", 
+        "icon": "./img/js_icon.svg"
+    },
+    {
+        "title": "React", 
+        "icon": "./img/react.svg"
+    }
+]

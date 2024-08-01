@@ -1,0 +1,200 @@
+[
+    {
+        "icon": "/img/logobuap.svg",
+        "name": "Licenciatura en Comunicación",
+        "school": "Benemérita Universidad Autónoma de Puebla",
+        "link": "https://www.buap.mx/",
+        "fecha": "2016",
+        "categoria": "Comunicación"
+    },
+    {
+        "icon": "/img/fundamentos-agilidad.svg",
+        "name": "Fundamentos de Agilidad",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/fundamentos-agilidad-primeros-pasos-transformacion-agil",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/foco-habito-dia-a-dia.svg",
+        "name": "Foco: Enfocarse trae más resultados para el día a día",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/foco-habito-dia-a-dia/certificate",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/emprendimiento-ideas.svg",
+        "name": "Emprendimiento: De la idea al plan de negocios",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/emprendimiento-idea-plan-negocios",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/aprender-a-aprender-tecnicas-autodesarrollo.svg",
+        "name": "Aprender a aprender: técnicas para tu autodesarrollo",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/aprender-a-aprender-tecnicas-autodesarrollo/certificate",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/habitos-productivo-metas-personales.svg",
+        "name": "Hábitos: Ser productivo para cumplir sus metas personales",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/habitos-productivo-metas-personales/certificate",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/desarrollo-carrera-llegar-posicion-deseada.svg",
+        "name": "Desarrollo de carrera: cómo llegar a la posición deseada",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/desarrollo-carrera-llegar-posicion-deseada",
+        "fecha": "2024",
+        "categoria": "Soft Skills"
+    },
+    {
+        "icon": "/img/desarrollo-carrera-demanda-mercado.svg",
+        "name": "Desarrollo de carrera: demanda del mercado",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/desarrollo-carrera-demanda-mercado/certificate",
+        "fecha": "2024"
+    },
+    {
+        "icon": "/img/hooks-reactjs.svg",
+        "name": "Hooks en ReactJS: conociendo su potencial y utilidad",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/hooks-reactjs-conociendo-potencial-utilidad",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/react-styled-components.svg",
+        "name": "React: Styled Components",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/react-styled-components-manipulando-archivos-estaticos",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/react-router.svg",
+        "name": "React Router: Navegación en una SPA",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/react-router-navegacion-spa",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/react-como-componentes-funcionan.svg",
+        "name": "React: Cómo funcionan los componentes",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/react-como-componentes-funcionan/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/react-desarrollando-javascript.svg",
+        "name": "React: Desarrollando con JavaScript",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/certificate/josesombrerero/react-desarrollando-javascript",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/javascript-validando-formularios.svg",
+        "name": "JavaScript: Validando formularios",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/javascript-validando-formularios/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/javascript-creando-solicitudes.svg",
+        "name": "JavaScript: Creando solicitudes",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/javascript-creando-solicitudes/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/javascript-consumiendo-manejando-datos-api.svg",
+        "name": "JavaScript: Consumiendo y manejando datos de una API",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/javascript-consumiendo-manejando-datos-api/certificate",
+        "fecha": "2024"
+    },
+    {
+        "icon": "/img/http-base-internet.svg",
+        "name": "HTTP: La base de internet",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/http-base-internet/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/javascript-manipulando-elementos-en-el-dom.svg",
+        "name": "JavaScript: Manipulando elementos en el DOM",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/javascript-manipulando-elementos-en-el-dom/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/javascript-web-paginas-dinamicas.svg",
+        "name": "JavaScript para web: Crea páginas dinámicas",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/javascript-web-paginas-dinamicas/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/css-flexbox-layouts-responsivos.svg",
+        "name": "CSS: Flexbox y layouts responsivos",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/css-flexbox-layouts-responsivos/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/linkedin-hacer-perfil-trabaje-por-ti.svg",
+        "name": "LinkedIn: Como hacer que tu perfil trabaje por ti",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/linkedin-hacer-perfil-trabaje-por-ti/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/git-github-repositorio-commit-versiones.svg",
+        "name": "Git y GitHub: Repositorio, commit y versiones",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/git-github-repositorio-commit-versiones/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/html5-css3-primera-pagina-web.svg",
+        "name": "HTML5 y CSS3",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/html5-css3-avanzando-css/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/logica-programacion-explorar-funciones-listas.svg",
+        "name": "Funciones y listas con Javascript",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/logica-programacion-explorar-funciones-listas/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    },
+    {
+        "icon": "/img/logica-programacion-sumergete-programacion-javascript.svg",
+        "name": "Lógica de programación con JavaScript",
+        "school": "Oracle Next Education + Alura Latam",
+        "link": "https://app.aluracursos.com/user/josesombrerero/course/logica-programacion-sumergete-programacion-javascript/certificate",
+        "fecha": "2024",
+        "categoria": "Programación"
+    }
+]

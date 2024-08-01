@@ -1,0 +1,22 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.900);
+    padding: 30px;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    gap: 5px;
+    
+}
+
+.footer__container h3{
+    font-size: 15px;
+}
+
+.footer__container h3{
+    font-size: 15px;
+
+}

@@ -1,0 +1,25 @@
+
+.academic{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    color: #464646;
+    border-top: solid 3px #dde0e4;
+    border-bottom: solid 3px #dde0e4;
+}
+
+
+.academic h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.academic__cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+}

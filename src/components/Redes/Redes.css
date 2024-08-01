@@ -1,0 +1,44 @@
+.title__network{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.title__network a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    color: #464646;    
+    cursor: pointer;
+}
+
+.icon:hover{
+    scale: 1.2;
+    color: #6B47C4;
+    transition: color 0.3s;
+}
+
+.title__network h4{
+    display: none;
+
+}
+
+/*Tablet*/
+@media (min-width: 834px) {
+
+    .title__network{
+        justify-content: start;
+        gap: 30px;   
+    }
+
+    .title__network h4{
+        display: flex;
+    
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1024px){
+
+}

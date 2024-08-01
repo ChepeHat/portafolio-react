@@ -1,0 +1,85 @@
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.campo__input-error{
+    font-size: 12px;
+    line-height: 15px;  
+    display: none;
+    margin-bottom: 0;
+}
+
+.campo__input-error-activo {
+	display: block;
+}
+
+.campo__validacion{
+    z-index: 100;
+    right:15px;
+    bottom: 20px;
+    position: absolute;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.campo-container{
+    position: relative;
+}
+
+.campo input{
+    width: 95%;
+    background: white;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-bottom: 4px solid transparent; /* AsegÃºrate de definir un grosor para el borde */
+    transition: border-color 0.3s;
+}
+
+.campo input::placeholder{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #A2A2A2;
+}
+
+.campo input :focus {
+    border-color: #331E65; 
+    outline: none;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.100);
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+    
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+
+.campo-correcto .campo__validacion {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.campo-incorrecto .campo-label {
+	color: #bb2929;
+}
+
+.campo-incorrecto .campo__validacion {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.campo-incorrecto .campo-input {
+	border: 3px solid #bb2929;
+}
+
+.campo-incorrecto .campo__input-error {
+	display: block;
+}
+

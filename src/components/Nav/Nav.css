@@ -1,0 +1,31 @@
+/*Seccion Nav*/
+
+
+.menu__list{
+    display: none;
+}
+
+.menu__list li{
+    color: #464646;
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+
+
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .menu__list :nth-child(6){
+        font-weight: 800;
+    }
+
+    .menu__list__item__contacto{
+        display: none;
+    }
+
+    }
+    

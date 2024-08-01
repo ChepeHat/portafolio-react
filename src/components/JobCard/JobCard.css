@@ -1,0 +1,48 @@
+
+
+
+.jobcard{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100px; 
+    width: 100px;
+    max-width: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    align-items: start;
+    justify-content: end;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.100);
+    gap: 10px;
+}
+.jobcard__logo{
+    width: 100%;
+}
+
+.jobcard h3{
+    font-weight: 600;
+}
+
+.jobcard h4{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+
+
+.jobcard:hover{
+    scale: 1.05;
+    transition: .5s;
+}
+
+
+/*Tablet*/
+@media (min-width: 834px) {
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+}

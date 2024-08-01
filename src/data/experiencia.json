@@ -1,0 +1,32 @@
+[
+    {
+        "puesto": "Gestor de Contenido Multimedia",
+        "empresa": "Agencia Gravity",
+        "logo": "./img/LOGO-GRAV-1.png"
+    },
+    {
+        "puesto": "Director de Desarrollo Creativo",
+        "empresa": "Gobierno del Estado de Puebla",
+        "logo": "./img/LOGO-GOB-2.png"
+    },
+    {
+        "puesto": "Jefe de Diseño Institucional",
+        "empresa": "H. Ayuntamiento de Puebla",
+        "logo": "./img/LOGO-AYTO-1.png"
+    },
+    {
+        "puesto": "Auxiliar de Comunicación",
+        "empresa": "H. Congreso de Puebla",
+        "logo": "./img/LOGO-EDO-1.png"
+    },
+    {
+        "puesto": "Colaborador Creativo",
+        "empresa": "Es Momento de México",
+        "logo": "./img/LOGO-EMX-1.png"
+    },
+    {
+        "puesto": "Director Creativo",
+        "empresa": "Záfate TV - BUAP",
+        "logo": "./img/LOGO-ZFT-1.png"
+    }
+]

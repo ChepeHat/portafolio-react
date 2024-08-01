@@ -1,0 +1,43 @@
+
+
+
+.minicard{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100px; 
+    width: 100px;
+    max-width: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    align-items: start;
+    justify-content: end;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.100);
+    gap: 10px;
+}
+.minicard__icon{
+    height: 40px;
+    margin: 10px 0;
+    filter: brightness(0) saturate(100) invert(29%) sepia(18%) saturate(5433%) hue-rotate(235deg) brightness(100%) contrast(91%);
+}
+
+.minicard h4{
+    font-weight: 500;
+}
+
+.minicard:hover{
+    scale: 1.05;
+    transition: .5s;
+    background-color: #171717;
+    color: white;    
+}
+
+
+/*Tablet*/
+@media (min-width: 834px) {
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+}

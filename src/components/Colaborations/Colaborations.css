@@ -1,0 +1,37 @@
+.colaborations{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px;
+    color: #464646;
+    gap: 30px;
+}
+
+.colaborations h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.colaborations__logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.colaborations img{
+    width: auto;
+    height: 30px;
+    opacity: 50%;
+    transition: 0.3s;
+
+}
+
+.colaborations img:hover{
+    scale: 1.1;
+    transition: 3ms;
+    opacity: 100%;
+
+}

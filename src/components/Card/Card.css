@@ -1,0 +1,55 @@
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;  
+    width: 300px;
+    flex-grow: 1;
+    background-color: white;
+    align-items: start;
+    justify-content: end;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.100);
+    border-radius: 15px;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.card h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card h4{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.boton_container{
+    display: flex;
+    gap: 10px;
+
+}   
+
+/*Tablet*/
+@media (min-width: 834px) {
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+}

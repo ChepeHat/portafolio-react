@@ -1,0 +1,24 @@
+
+.jobs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    color: #464646;
+    background-color: none;
+}
+
+
+.jobs h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.jobs__cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+}

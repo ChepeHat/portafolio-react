@@ -1,0 +1,53 @@
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    --background: #e4e7eb;
+    
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background) ;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul,li {
+    list-style: none;
+    padding-inline-start: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*En este desafÃ­o nosostros gustarÃ­amos que ustedes intentaran utilizar la metodologÃ­a BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrÃ¡s de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fÃ¡cil y rÃ¡pido, incluso
+con una interfaz de usuario compleja, y permite la reutilizaciÃ³n del cÃ³digo existente sin copiar y pegar.
+
+Enlace de la documentaciÃ³n oficial!
+https://en.bem.info/methodology/quick-start/*/

@@ -1,9 +1,9 @@
 import './Experience.css'
 import JobCard from '../JobCard/'
-import Colaborations from '../Colaborations/'
-import Projects from '../Projects'
 import jobsData from '../../data/experiencia.json'
 import { useState, useEffect} from 'react'
+import SeeMore from '../SeeMore'
+import { Link } from 'react-router-dom'
 
 const Experience = () => {
 
@@ -27,9 +27,8 @@ const Experience = () => {
                     logo={job.logo} />
             ))}
         </div>
-        <Projects />
+        <Link to='/experiencia'> <SeeMore/> </Link>
     </section>
-    <Colaborations/>
     
     </>
 

@@ -7,6 +7,8 @@ import Skills from '../components/Skills';
 // import Hobbies from "../components/Hobbies";
 import Academic from "../components/Academic";
 import Experience from "../components/Experience";
+import Projects from '../components/Projects'
+import Colaborations from '../components/Colaborations';
 // import Contact from './components/Contact';
 
 
@@ -21,6 +23,8 @@ function Home(){
         {/* <Hobbies /> */}
         <Academic />
         <Experience />
+        <Projects />
+        <Colaborations/>
         {/* <Contact /> */}
         </>
     )

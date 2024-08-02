@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaArrowRight } from "react-icons/fa";
 
 const Button = styled.button`
     display: flex;
@@ -13,17 +14,22 @@ const Button = styled.button`
     background-color: #F5F5F5;
     border: 1px solid #331E65;
     color: #331E65;
+    gap: 10px;
     
-    :hover {
-        background-color: #8A7FA4;
+    &:hover {
+        background-color: #331E65;
+        color: #F5F5F5;
     }
 `
 
-const BotonSec = ({nameSec, linkSec}) => {
+const BotonSec = ({name, link}) => {
 
-    return <>
-        <Button href={linkSec}>{nameSec}</Button>
-    </>
+    return (
+        <Button>
+            <a target="_blank" rel="noopener noreferrer" href={link}>{name}</a>
+            <FaArrowRight size={15}/>
+        </Button>
+    )
 }
 
 export default BotonSec

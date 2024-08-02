@@ -59,6 +59,29 @@
     
 }
 
+.title__button-cv{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    background: none;
+    border: solid 2px #6B47C4;
+    color: #464646;
+    margin-top: 20px;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.title__button-cv:hover {
+    
+    background: linear-gradient(to right, #6B47C4, #2C195A);
+    color: white;
+}
+
+
 /*Tablet*/
 @media (min-width: 834px) {
 

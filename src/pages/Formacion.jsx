@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: #e0e0e0;
+
     padding: 40px;
     color: #464646;
     

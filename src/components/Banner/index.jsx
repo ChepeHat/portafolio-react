@@ -1,14 +1,13 @@
 import styled from 'styled-components';
-import Foto from '../Banner'
 
 const BannerImagen = styled.figure`
     background-image: url('img/gradiente.jpg');
     /* background: linear-gradient(to left, #6B47C4, #2C195A); */
     background-size: cover;
     background-position: center;
-    width: 100;
     height: 300px;
     margin: 0;
+    align-items: center;
 `
 const TituloBanner = styled.h2`
     color: #fff;

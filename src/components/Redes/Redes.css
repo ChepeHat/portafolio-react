@@ -21,11 +21,12 @@
 
 .title__network h4{
     display: none;
-
 }
 
+
+
 /*Tablet*/
-@media (min-width: 834px) {
+@media (min-width: 768px) {
 
     .title__network{
         justify-content: start;

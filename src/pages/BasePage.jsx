@@ -16,7 +16,7 @@ const Content = styled.div`
     width:1280px;
     max-width:100%;
     margin: 0 auto;
-    background-color: #e6eaef;
+    background-color:  var(--background2);
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
     border-left: solid 3px #dde0e4;

@@ -6,6 +6,7 @@ const StyledLink = styled(Link)`
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin-left: 25px;
 `
 const Texto = styled.p`
     font-size: 1.5rem;

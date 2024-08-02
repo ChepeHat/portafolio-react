@@ -1,12 +1,19 @@
 import "./Card.css"
-import BotonMain from '../Boton'
-import BotonSec from '../BotonSec'
+import styled from "styled-components"
+import { FaArrowRight } from "react-icons/fa";
 
+const Boton = styled.a`
+    color: #331E65;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    
+`
 
-const Card = (props) => {
-
-
-const {image, title, subtitle, name, nameSec, linkSec, link} = props
+const Card = ({image, title, subtitle, name, link}) => {
 
 
     return <>
@@ -15,16 +22,13 @@ const {image, title, subtitle, name, nameSec, linkSec, link} = props
                 <div className="card_bottom">
                     <h3>{title}</h3>
                     <h4>{subtitle}</h4>
-                    <a className="boton_container">
-                        <BotonSec
-                            nameSec={nameSec}
-                            linkSec={linkSec}
-                        />
-                        <BotonMain
-                            name={name}
-                            link={link}
-                        />
-                    </a>    
+                    <Boton target="_blank" rel="noopener noreferrer" href={link}>
+                        {name}
+                        <FaArrowRight size={15}/>
+                    </Boton>
+                    {/* <div className="boton_container">
+                        <BotonSec link={link} name={name}/>
+                    </div>     */}
                 </div>
             </div>
     </>

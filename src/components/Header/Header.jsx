@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import Nav from '../Nav';
 import styled from 'styled-components';
 
@@ -13,10 +14,11 @@ const HeaderStyle = styled.header`
 
     /*Desktop*/
     @media (min-width: 1024px) {
-        padding: 20px 30px;
+        padding: 20px 3rem;
         width:1280px;
         max-width:100%;
         margin: 0 auto;
+        box-sizing: border-box;
     }
 `
 
@@ -32,10 +34,12 @@ const Container = styled.div`
 
 const Header = () => {
     return (<HeaderStyle>
-        <Container className="menu__header">
-            <img src="img/ufo-hat.svg"/>
-            <h3 className="menu__title">Armando Sombrerero</h3>
-        </Container>
+        <Link to='/' >
+                <Container className="menu__header">
+                <img src="img/ufo-hat.svg"/>
+                <h3 className="menu__title">Armando Sombrerero</h3>
+                </Container>
+        </Link>
         < Nav />
 </HeaderStyle>
     );

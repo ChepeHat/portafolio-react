@@ -2,31 +2,44 @@
     {
         "puesto": "Gestor de Contenido Multimedia",
         "empresa": "Agencia Gravity",
-        "logo": "./img/LOGO-GRAV-1.png"
+        "logo": "./img/LOGO-GRAV-1.png",
+        "fecha": "2022 - ACTUAL",
+        "descripcion": "Encabezo la conceptualización y desarrollo de contenido multimedia estratégico para plataformas de redes sociales, orientado a consolidar la identidad visual de las marcas con las que colaboramos y atraer a un público objetivo relevante. Lidero la planificación y ejecución de campañas publicitarias digitales, diseñando estrategias innovadoras para optimizar el tráfico y mejorar la interacción con los seguidores. Mi rol incluye la supervisión del rendimiento de las campañas mediante análisis de datos, garantizando que se alcancen los objetivos de crecimiento y visibilidad establecidos."
     },
     {
         "puesto": "Director de Desarrollo Creativo",
         "empresa": "Gobierno del Estado de Puebla",
-        "logo": "./img/LOGO-GOB-2.png"
+        "logo": "./img/LOGO-GOB-2.png",
+        "fecha": "2019 - 2022",
+        "descripcion": "Responsable de la elaboración de guiones creativos para contenido multimedia, destinados a la difusión de los logros del gobierno y la planeación estratégica de campañas gubernamentales. Líder del equipo de diseño institucional, encargado de la creación de piezas gráficas para eventos oficiales y la planificación estratégica de iniciativas gubernamentales. Este puesto demandó habilidades de liderazgo, visión estratégica y creatividad, orientadas a comunicar eficazmente las acciones y logros del gobierno, así como a fortalecer su imagen institucional."
+        
     },
     {
         "puesto": "Jefe de Diseño Institucional",
         "empresa": "H. Ayuntamiento de Puebla",
-        "logo": "./img/LOGO-AYTO-1.png"
+        "logo": "./img/LOGO-AYTO-1.png",
+        "fecha": "2018 - 2019",
+        "descripcion": "Encargado de la creación y diseño de piezas impresas para eventos institucionales, con el objetivo de difundir las obras y proyectos realizados por la Secretaría de Infraestructura y Servicios Públicos del gobierno municipal de Puebla. En este rol, se requería una alta capacidad para desarrollar materiales visuales impactantes y coherentes con la imagen institucional, contribuyendo a la comunicación efectiva de los logros y actividades de la administración municipal."
     },
     {
         "puesto": "Auxiliar de Comunicación",
         "empresa": "H. Congreso de Puebla",
-        "logo": "./img/LOGO-EDO-1.png"
+        "logo": "./img/LOGO-EDO-1.png",
+        "fecha": "2015 - 2017",
+        "descripcion": "Responsable de la producción de fotografía y video, así como de la elaboración de guiones para campañas de difusión en redes sociales, con el objetivo de resaltar y promover el trabajo realizado por el diputado local José Chedraui Budib. Este rol requería habilidades en la creación de contenido visual y textual atractivo, orientado a fortalecer la presencia y comunicación del diputado en plataformas digitales."
     },
     {
         "puesto": "Colaborador Creativo",
         "empresa": "Es Momento de México",
-        "logo": "./img/LOGO-EMX-1.png"
+        "logo": "./img/LOGO-EMX-1.png",
+        "fecha": "2017",
+        "descripcion": "Responsable de la producción y postproducción de piezas audiovisuales, asegurando la creación de contenido de alta calidad que cumpla con los estándares creativos y técnicos requeridos. Este puesto involucró la colaboración estrecha con equipos creativos para desarrollar materiales visuales impactantes, desde la conceptualización inicial hasta la finalización del producto."
     },
     {
         "puesto": "Director Creativo",
         "empresa": "Záfate TV - BUAP",
-        "logo": "./img/LOGO-ZFT-1.png"
+        "logo": "./img/LOGO-ZFT-1.png",
+        "fecha": "2014 - 2016",
+        "descripcion": "Encargado del diseño de producción y la supervisión de la postproducción para el programa televisivo “Záfate - Cultura Juvenil”. En este rol, se lideró el proceso creativo, desde la conceptualización y el diseño de la producción hasta la supervisión de las etapas finales de postproducción, garantizando la calidad y cohesión del contenido televisivo. Se requirió una visión creativa estratégica y habilidades en gestión de proyectos para asegurar el éxito y la efectividad del programa en su audiencia objetivo."
     }
 ]

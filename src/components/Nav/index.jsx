@@ -83,62 +83,61 @@ const Lista = styled.ul`
 `
 
 
-const Nav = () => {
 
+const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null);
 
     const handleClickOutside = (event) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
+        // Si el clic se hace fuera del menú y no en el MenuIcon, cierra el menú
+        if (menuRef.current && !menuRef.current.contains(event.target) && event.target.id !== 'menu-icon') {
             setMenuOpen(false);
         }
     };
 
+    const handleMenuClick = (event) => {
+        event.stopPropagation(); // Detener la propagación del evento
+        setMenuOpen(prev => !prev);
+    };
+
+    const handleLinkClick = () => {
+        setMenuOpen(false);
+    };
+
     useEffect(() => {
-        if(menuOpen) {
+        if (menuOpen) {
             document.addEventListener('mousedown', handleClickOutside);
-            } else {
-                document.removeEventListener('mousedown', handleClickOutside);
-            }
-            return () => {
-                document.removeEventListener('mousedown', handleClickOutside);
-            }}, [menuOpen]);
+        } else {
+            document.removeEventListener('mousedown', handleClickOutside);
+        }
 
-            const handleMenuClick = () => {
-                setMenuOpen(!menuOpen);
-            };
-            
-            const handleLinkClick = () => {
-                setMenuOpen(false);
-            };
-    
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [menuOpen]);
 
-    return <NavBar>
-            <MenuIcon onClick={handleMenuClick} 
-            />
+    return (
+        <NavBar>
+            <MenuIcon id="menu-icon" onClick={handleMenuClick} aria-label="Menu" />
             <Lista ref={menuRef} open={menuOpen}>
-                <li> 
-                    <Link smooth to='/#about' onClick={handleLinkClick} >Sobre mi </Link>  
+                <li>
+                    <Link smooth to="/#about" onClick={handleLinkClick}>Sobre mí</Link>
                 </li>
-                <li>  
-                    <Link smooth to='/#skills' onClick={handleLinkClick} >Skills</Link>
+                <li>
+                    <Link smooth to="/#skills" onClick={handleLinkClick}>Skills</Link>
                 </li>
-                {/* <li> <a href="#hobbies">Hobbies</a> </li> */}
-                <li> 
-                    <Link to='/formacion' onClick={handleLinkClick}>Formación</Link> 
+                <li>
+                    <Link to="/formacion" onClick={handleLinkClick}>Formación</Link>
                 </li>
-                <li> 
-                    <Link to='/experiencia' onClick={handleLinkClick}>Experiencia</Link> 
+                <li>
+                    <Link to="/experiencia" onClick={handleLinkClick}>Experiencia</Link>
                 </li>
-                <li> 
-                    <Link smooth to='/#proyectos'onClick={handleLinkClick}>Proyectos</Link> 
+                <li>
+                    <Link smooth to="/#proyectos" onClick={handleLinkClick}>Proyectos</Link>
                 </li>
-                {/* <li> 
-                    <Link to="#contact" onClick={handleLinkClick}>Contacto</Link> 
-                </li> */}
             </Lista>
         </NavBar>
-        
+    );
 };
 
-export default Nav
+export default Nav;
